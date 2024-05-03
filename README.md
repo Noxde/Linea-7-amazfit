@@ -20,7 +20,7 @@ La aplicacion utiliza el API de [mensajes](https://docs.zepp.com/docs/reference/
 
 # Server
 
-Este server esta hecho con [Node Js](https://nodejs.org/en) usando [Express](https://www.npmjs.com/package/express).
+Este server esta hecho con [Node Js](https://nodejs.org/en) usando [Express](https://www.npmjs.com/package/express) y es hosteado en mi telefono usando [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=es_AR&gl=US).
 
 Para saber cual era el endpoint de la aplicacion original tuve que usar [Charles proxy](https://www.charlesproxy.com/) lo que me permitio ver las requests que realizaba mi telefono conectandolo a un proxy creado con dicho software.
 

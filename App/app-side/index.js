@@ -46,8 +46,11 @@ AppSideService({
 
     messageBuilder.on("request", (ctx) => {
       const jsonRpc = messageBuilder.buf2Json(ctx.request.payload);
-      if (jsonRpc.method === "GET_DATA") {
-        return fetchData(ctx);
+      if (jsonRpc.method === "GET_CASA") {
+        return fetchCasa(ctx);
+      }
+      if (jsonRpc.method === "GET_FACULTAD") {
+        return fetchFacultad(ctx);
       }
     });
   },
